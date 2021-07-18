@@ -1,0 +1,204 @@
+#bigBox {
+  color: black;
+  background-color: #2D3748;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+#bigBox .caja {
+  margin-top: 110px;
+  -webkit-box-pack: 'center';
+      -ms-flex-pack: 'center';
+          justify-content: 'center';
+  gap: '4em';
+  position: relative;
+}
+
+#bigBox .brands {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+#bigBox .smallCaja {
+  padding: 0 1em 1.5em 1em;
+  width: 260px;
+  border: 1px solid black;
+  border-radius: 1em;
+  position: relative;
+  min-height: 490px;
+  background: white;
+  font-weight: 800;
+  font-size: 1.1rem;
+  min-width: 300px;
+  -webkit-box-shadow: 0 20px 25px -5px darkgrey, 0 10px 10px -5px darkgrey;
+          box-shadow: 0 20px 25px -5px darkgrey, 0 10px 10px -5px darkgrey;
+}
+
+#bigBox .smallCaja:hover {
+  -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+@media (min-width: 800px) and (max-width: 1270px) {
+  #bigBox .smallCaja {
+    margin-left: 340px !important;
+  }
+}
+
+#bigBox .spaceColors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.5em;
+}
+
+@media (max-width: 700px) {
+  #bigBox .smallCaja {
+    margin-bottom: 10px;
+  }
+}
+
+#bigBox .image {
+  height: 200px;
+  width: auto;
+  border-radius: 8px;
+  margin-top: -40px;
+}
+
+#bigBox .image:hover {
+  -webkit-transition: margin-top 0.9s;
+  transition: margin-top 0.9s;
+  -webkit-transform: translateY(-23%);
+          transform: translateY(-23%);
+  width: 170px;
+  max-height: 240px;
+}
+
+#bigBox .data {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#bigBox .icons {
+  height: 23px;
+  width: auto;
+  gap: 0.3em;
+}
+
+#bigBox .price {
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+#bigBox .btnColor {
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  border: none;
+}
+
+#bigBox .btnColor:active {
+  outline: 3px solid black;
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+}
+
+.form__field::-webkit-input-placeholder {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.form__field:-ms-input-placeholder {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.form__field::-ms-input-placeholder {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.form__field::placeholder {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  font-size: 1.6rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  -o-border-image: linear-gradient(to right, #11998e, #38ef7d);
+     border-image: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
+     border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  font-size: 1.3rem;
+  color: #11998e;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.testMargin {
+  margin-bottom: 120px;
+}
