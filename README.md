@@ -1,5 +1,5 @@
 
-Phone's catalogue is an app about a shopping store who helps you find the best matches for your needs. You can filter among our products, selecting by brand, price, processor, ram and even editing the content if you are not happy yet with what you seeing.  
+Phone's catalogue is an app about a shopping store who helps you find the best matches for your needs. You can filter among our products, selecting by brand, price, processor, ram and even editing the content, so you could find exactly what you want. 
 
 ##Features:
 
