@@ -5,8 +5,10 @@ Phone's catalogue is an app about a shopping store who helps you find the best m
 
 Intuitive App Responsive mode Cross platform
 
-Tech Stack
+Tech Stack:
+
 Client: React, Hooks, Sass, Bootstrap, Chakra Ui
 
-Deployment
-phonescatalogue.netlify.app
+Deployment: 
+
+https://phonescatalogue.netlify.app/
